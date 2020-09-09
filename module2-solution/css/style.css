@@ -4,6 +4,7 @@
 
 body{
   font-family: Arial, Helvetica;
+  font-size: 20px;
 }
 
 .row{
@@ -15,7 +16,7 @@ body{
 
 h1{
   text-align: center;
-  font-size: 2.75em;
+  font-size: 1.75em;
 }
 
 .text{
@@ -30,6 +31,7 @@ h1{
   float: right;
   margin-bottom: 5px;
   margin-top: 0;
+  font-size: 1.25em;
 }
 div#chicken {
   background-color: #c37c7c;
