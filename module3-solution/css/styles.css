@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #337474;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #235b21;
+  border-radius: 0;
+  border: 2px solid #34362c;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #e3edde;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #16361d;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.title{
+  height: 30px;
+  padding-top: 5px;
+}
+
+.title .title-name{
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #16361d;
+  font-size: 22px;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.text-container{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+
+
+.text-title{
+  background-color: #898a86;
+  border: 2px solid black;
+  box-shadow: 0 1px 5px 1px #eee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.title-chiken, .title-beef, .title-sushi{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #0c0d0c;
+}
+
+hr{
+  width: 50%;
+}
+
+#goMenu span{
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button{
+  background-color:#323536;
+  width: 15%;
+  position: absolute;
+  right:  5px;
+  bottom: 5px;
+  text-align: center;
+}
